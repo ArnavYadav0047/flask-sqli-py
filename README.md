@@ -32,7 +32,7 @@ The project can support a research illustration related to the **CICIoT2023** we
 ## Project structure
 
 ```text
-flask-sqli-lab/
+flask-sqli-py/
 ├── app.py
 ├── init_db.py
 ├── database.db                 # Created locally after initialization
@@ -64,11 +64,9 @@ Optional tools:
 ### 1. Clone the repository
 
 ```bash
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git)
-cd YOUR-REPOSITORY
+git clone https://github.com/ArnavYadav0047/flask-sqli-py.git
+cd flask-sqli-py
 ```
-
-Replace `YOUR-USERNAME` and `YOUR-REPOSITORY` with your GitHub account and repository name.
 
 ### 2. Create and activate a virtual environment
 
@@ -192,8 +190,9 @@ On the Raspberry Pi:
 ```bash
 sudo apt update
 sudo apt install -y git python3-venv python3-pip
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git)
-cd YOUR-REPOSITORY
+
+git clone https://github.com/ArnavYadav0047/flask-sqli-py.git
+cd flask-sqli-py
 
 python3 -m venv venv
 source venv/bin/activate
