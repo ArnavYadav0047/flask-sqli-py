@@ -1,7 +1,12 @@
-cat > .gitignore << 'EOF'
 venv/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Packet captures
 flask-sqli.pcap
-EOF
+*.pcap
+*.pcapng
+
+# Generated local database
+database.db
